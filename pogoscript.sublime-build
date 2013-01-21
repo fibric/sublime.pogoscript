@@ -1,0 +1,13 @@
+{
+  "cmd": ["pogo", "-c", "$file"]
+, "path": "/usr/local/bin:$PATH:/usr/local/share/npm/bin"
+, "selector": "source.pogo"
+, "working_dir": "$project_path"
+, "variants":
+  [
+    {
+      "name": "Run"
+      , "cmd": ["pogo", "$file"]
+    }
+  ]
+}
